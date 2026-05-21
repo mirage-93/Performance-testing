@@ -32,7 +32,7 @@
 - p(90) a p(95), znamená, že se výsledky seřadily od nejkratšího po nejdelší a vezme se hodnota na 95 percentilu, to znamená, že jen 5% uživatelů má odpověd pomaleji
 - u průměru by se vzaly všechny hodnoty a vydělily jejich počtem, takže pokud by jeden požadavek trval dlouho a ostatní krátce, tak by to zkreslilo výsledek testu
 
-Příklad
-10 požadavků
-Průměr výpočet: (100 + 110 + 115 + 120 + 125 + 130 + 135 + 140 + 150 + 10000) / 10 = 1112 ms | zdá se, že je request pomalý, 1,1 sekundy
-Percentil výpočet: Hodnota 90 percentil je 150 | jen 5% uživatelů mělo delší response, než 0,15 sekundy
+Příklad. 
+10 požadavků. 
+Průměr výpočet: (100 + 110 + 115 + 120 + 125 + 130 + 135 + 140 + 150 + 10000) / 10 = 1112 ms | zdá se, že je request pomalý, 1,1 sekundy. 
+Percentil výpočet: Hodnota 90 percentil je 150 | jen 5% uživatelů mělo delší response, než 0,15 sekundy. 
